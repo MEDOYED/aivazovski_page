@@ -6,4 +6,43 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: var(--bg-main);
+  line-height: 21.09px;
+  font-size: 18px;
 }
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li a {
+  display: block;
+}
+
+.container {
+  max-width: 950px; 
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 0px 10px;
+}
+
+.header__top {
+
+}
+
+.nav {
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+
+}
+
