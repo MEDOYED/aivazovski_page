@@ -1,7 +1,24 @@
-h1 {
+.h1 {
   display: flex;
-  font-size: 48px;
-  width: 660px;
-
+  justify-content: center;
+  padding-top: 47px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
+.h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.home__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
