@@ -26,7 +26,7 @@ li a {
 }
 
 .header__top {
-  
+
 }
 
 .nav {
@@ -36,7 +36,6 @@ li a {
 .nav__list {
   display: flex;
   justify-content: space-between; 
-
 }
 
 .nav__item {
@@ -52,7 +51,7 @@ li a {
 }
 
 .nav__link {
-
+  
 }
 
 .line {
