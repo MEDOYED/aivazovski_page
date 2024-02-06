@@ -15,7 +15,18 @@
     font-weight: 700;
 }
 .Contacts__btn {
+    position: relative;
     margin-bottom: 45px;
+    width: 211px;
+height: 42px;
+border-radius: 25px;
+background-color: black;
+}
+.Contacts__btn-text{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+color: aliceblue;
 }
 .Contacts__inner {
 
