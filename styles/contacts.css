@@ -1,0 +1,34 @@
+.footer__Contacts {
+    padding-bottom: 62px;
+}
+
+.Contacts__container {
+    max-width: 400px; 
+  margin: 0 auto;
+  padding: 0px 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+.Contacts__header {
+    padding: 80px 0 55px;
+    font-size: 34px;
+    font-weight: 700;
+}
+.Contacts__btn {
+    margin-bottom: 45px;
+}
+.Contacts__inner {
+
+}
+.Contacts__item {
+
+    padding-right: 30px;
+}
+.Contacts__item:last-child{
+    padding-right: 0px;
+}
+.Contacts__link {
+}
+.Contacts__text {
+    margin-top: 34px;
+}
