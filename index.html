@@ -13,95 +13,114 @@
 </head>
 
 <body>
-  <header>
+
+  <header class="header">
     <div class="container">
-      <div class="header__top nav">
+      <nav class="header__top nav">
         <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
-          <li class="nav__item"><a class="nav__link" href="#aboout">About</a></li>
-          <li class="nav__item"><a class="nav__link" href="#History">History</a></li>
-          <li class="nav__item"><a class="nav__link" href="#Portfolio">Portfolio</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#aboout">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#History">History</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">Contacts</a>
+          </li>
         </ul>
-        <div class="line"></div>
-      </div>
+      </nav>
   </header>
 
-  <main>
-    <section id="home">
+  <div class="container">
+    <div class="line"></div>
+  </div>
+
+  <main class="main">
+
+    <section class="home">
       <div class="container">
-        <h1 class="h1">Ivan Konstantinovich Aivazovski</h1>
-        <h2 class="h2">Russian marine painter of Armenian origin, collector, philanthropist</h2>
-      </div>
-      <div class="home__img">
-        <img src="assets/webp/home.webp" alt="Aivazovski">
-      </div>
-    </section>
-    <section id="aboout">
-      <div class="main__aboout">
-        <div class="container">
-          <div class="about">
-            <h2 class="about__header ">About</h2>
-            <div class="about__item">
-              <p class="about__centr">Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского
-                происхождения, коллекционер,
-                меценат.</p>
-              <p class="about__text">Будучи художником с мировой известностью, Иван Константинович Айвазовский
-                предпочитал жить и работать на
-                своей родине — в Крыму. Айвазовский наиболее известен своими морскими пейзажами, которые составляют
-                больше
-                половины его работ. Художник считается одним из величайших маринистов всех времён.</p>
-              <div class="about__line"></div>
-              <div class="about__en">
-                <p class="about__centr">Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian origin,
-                  collector, philanthropist.</p>
-                <p class="about__text">Being a world famous artist, Ivan Konstantinovich Aivazovsky preferred to live
-                  and work in his homeland - in
-                  the Crimea. Aivazovsky is best known for his seascapes, which make up more than half of his work. The
-                  artist
-                  is considered one of the greatest marine painters of all time.</p>
-              </div>
-            </div>
+        <div class="home__inner">
+          <h1 class="home__title">Ivan Konstantinovich Aivazovski</h1>
+          <h2 class="home__subtitle">Russian marine painter of Armenian origin, collector, philanthropist</h2>
+          <div class="home__image-box">
+            <img src="assets/webp/home.webp" alt="Aivazovski">
           </div>
         </div>
       </div>
     </section>
 
-    <section id="History">
-      <div class="main__History">
-        <div class="container">
-          <div class="History__header">History</div>
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title">About</h2>
+        <div class="about__inner">
+          <p class="about__paragraph-one">Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского
+            происхождения, коллекционер,
+            меценат.</p>
+          <p class="about__paragraph-two">Будучи художником с мировой известностью, Иван Константинович Айвазовский
+            предпочитал жить и работать на
+            своей родине — в Крыму. Айвазовский наиболее известен своими морскими пейзажами, которые составляют
+            больше
+            половины его работ. Художник считается одним из величайших маринистов всех времён.</p>
+          <div class="about__line"></div>
+          <p class="about__paragraph-one">Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian origin,
+            collector, philanthropist.</p>
+          <p class="about__paragraph-two">Being a world famous artist, Ivan Konstantinovich Aivazovsky preferred to live
+            and work in his homeland - in
+            the Crimea. Aivazovsky is best known for his seascapes, which make up more than half of his work. The
+            artist
+            is considered one of the greatest marine painters of all time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="history">
+      <div class="container">
+        <h2 class="history__title">History</h2>
+        <div class="history__image-box">
           <img src="assets/webp/history.webp" alt="">
-          <p class="History__text">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
         </div>
+        <p class="history__paragraph">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
       </div>
     </section>
-    <section id="Portfolio">
-      <div class="main__portfolio">
+
+    <section class="portfolio">
         <div class="container">
-          <div class="portfolio__header">Portfolio</div>
-          <div>
-            <img src="assets/webp/portfolio_1.webp" alt="">
-            <div class="portfolio__description">
-              Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
-            </div>
-          </div>
-          <div>
-            <img src="assets/webp/portfolio_2.webp" alt="">
-            <div class="portfolio__description">
-              Радуга, 1873 г. | Rainbow, 1873
-            </div>
-          </div>
-          <div>
-            <img src="assets/webp/portfolio_3.webp" alt="">
-            <div class="portfolio__description">
-              Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893
-            </div>
-          </div>
+          <h2 class="portfolio__title">Portfolio</h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <div class="portfolio__image-box">
+                <img src="assets/webp/portfolio_1.webp" alt="">
+              </div>
+              <p class="portfolio__paragraph">
+                Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
+              </p>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__image-box">
+                <img src="assets/webp/portfolio_2.webp" alt="">
+              </div>
+              <p class="portfolio__paragraph">
+                Радуга, 1873 г. | Rainbow, 1873
+              </p>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__image-box">
+                <img src="assets/webp/portfolio_3.webp" alt="">
+              </div>
+              <p class="portfolio__paragraph">
+                Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893
+              </p>
+            </li>
+          </ul>
         </div>
-      </div>
     </section>
-    
+
     <section></section>
     <section></section>
   </main>
