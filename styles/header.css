@@ -21,8 +21,7 @@ li a {
 }
 
 .header {
-  margin-top: 24px;
-  margin-bottom: 35px;
+  margin: 24px 0 35px;
 }
 
 .container {
