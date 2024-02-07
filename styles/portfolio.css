@@ -1,20 +1,28 @@
-.main__portfolio {
+.portfolio {
   background-color: #F6F6F6;
-  padding: 79px 0 12px;
+  margin: 79px 0 12px;
+  text-align: center;
 }
 
-.portfolio__header {
-  text-align: center;
+.portfolio__title {
   font-weight: 700;
   font-size: 34px;
   line-height: 40px;
-  padding-bottom: 76px;
+  margin-bottom: 76px;
 }
 
-.portfolio__description {
-  text-align: center;
+.portfolio__item {
+  margin-bottom: 95px;
+}
+
+.portfolio__item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio__image-box {
+  margin-bottom: 39px;
+}
+
+.portfolio__paragraph {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 39px 0px 95px;
 }
